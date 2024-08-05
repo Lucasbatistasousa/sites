@@ -24,7 +24,8 @@
 
 body{
     font-family: var(--fonte-destaque);
-    background-color: #658d29;
+    background: black url('imagens/imagemdefundo.png') center center no-repeat fixed;
+    background-size: cover;
 }
 
 header{
@@ -57,11 +58,18 @@ header img{
 }
 
 div{
-    background-color: white;
+    background: black url('imagens/imagempromessa.png') center center no-repeat fixed;
+    background-size: cover;
     min-width: 300px;
     max-width: 800px;
+    height: 170px;
     margin: auto;
     padding: 0px 5px 10px 5px;
+}
+
+#CTA{
+    position: absolute;
+    left: 68%;
 }
 
 div a{
@@ -75,6 +83,7 @@ div a:hover{
 }
 
 div h1 {
+    color: white;
     padding: 10px 40px;
 }
 
