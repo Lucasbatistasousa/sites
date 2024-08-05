@@ -68,8 +68,7 @@ div{
 }
 
 #CTA{
-    position: absolute;
-    left: 68%;
+    position: relative;
 }
 
 div a{
