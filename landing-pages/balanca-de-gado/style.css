@@ -60,7 +60,7 @@ header img{
 div{
     background: black url('imagens/imagempromessa.png') center center no-repeat fixed;
     background-size: cover;
-    min-width: 300px;
+    min-width: 200px;
     max-width: 800px;
     height: 170px;
     margin: auto;
@@ -69,6 +69,7 @@ div{
 
 #CTA{
     position: relative;
+    left: 62%;
 }
 
 div a{
@@ -86,6 +87,9 @@ div h1 {
     padding: 10px 40px;
 }
 
+picture{
+    max-width: 820px;
+}
 main{
     background-color: white;
     min-width: 300px;
